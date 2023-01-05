@@ -1,8 +1,11 @@
 import Beverages.Beverage;
+import Beverages.DarkRoast;
+import Beverages.Decaf;
 import Beverages.Espresso;
 import Beverages.HouseBlend;
 import Condiments.Mocha;
 import Condiments.Soy;
+import Condiments.SteamedMilk;
 import Condiments.Whip;
 
 public class StarbuzzCoffee {
@@ -33,5 +36,14 @@ public class StarbuzzCoffee {
         System.out.println(beverage4.getDescription()
             + " $" + beverage4.cost());
 
+        Beverage beverage5 = new Decaf();
+        beverage5 = new Soy(beverage5);
+        System.out.println(beverage5.getDescription()
+            + " $" + beverage5.cost());
+
+        Beverage beverage6 = new Espresso(Beverage.Size.GRANDE);
+        beverage6 = new SteamedMilk(beverage6);
+        System.out.println(beverage6.getDescription()
+            + " $" + beverage6.cost());
     }
 }

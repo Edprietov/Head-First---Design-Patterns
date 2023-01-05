@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54e7468-a6c4-4565-ac13-872ce9be6122" name="Changes" comment="Observer pattern &#10;&#10;Implementation of Weather Station App to apply this pattern and see how it works.">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/SteamedMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Whip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Decorator Pattern/src/StarbuzzCoffee.java" afterDir="false" />
+    <list default="true" id="c54e7468-a6c4-4565-ac13-872ce9be6122" name="Changes" comment="Decorator pattern &#10;&#10;Implementation of Coffee Station to apply this pattern and see how it works.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Decaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Decaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Beverages/HouseBlend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Soy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Soy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/SteamedMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/SteamedMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/Condiments/Whip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator Pattern/src/StarbuzzCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator Pattern/src/StarbuzzCoffee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/eprie/Documents/Head-First---Design-Patterns",
+    "last_opened_file_path": "C:/Users/eprie/Documents/pmx-data-integration-index-processor",
     "ruby.rails.projectView.checked": "true"
   }
 }]]></component>
@@ -95,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665158314628</updated>
-      <workItem from="1672894790569" duration="1568000" />
+      <workItem from="1672894790569" duration="2044000" />
+      <workItem from="1672928125721" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="Observer pattern &#10;&#10;Implementation of Weather Station App to apply this pattern and see how it works.">
       <created>1665619843295</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665619843295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Decorator pattern &#10;&#10;Implementation of Coffee Station to apply this pattern and see how it works.">
+      <created>1672896447680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672896447680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Observer pattern &#10;&#10;Implementation of Weather Station App to apply this pattern and see how it works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern &#10;&#10;Implementation of Weather Station App to apply this pattern and see how it works." />
+    <MESSAGE value="Decorator pattern &#10;&#10;Implementation of Coffee Station to apply this pattern and see how it works." />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator pattern &#10;&#10;Implementation of Coffee Station to apply this pattern and see how it works." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP___Desing_Patterns$SwingObserverExample.ic" NAME="SwingObserverExample Coverage Results" MODIFIED="1665628462785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

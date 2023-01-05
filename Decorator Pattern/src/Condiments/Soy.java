@@ -7,6 +7,7 @@ public class Soy extends CondimentDecorator {
 
     public Soy(Beverage beverage) {
         this.beverage = beverage;
+        setSize(beverage.getSize());
     }
 
     public String getDescription() {
@@ -14,6 +15,15 @@ public class Soy extends CondimentDecorator {
     }
 
     public double cost() {
-        return .15 + beverage.cost();
+        switch (getSize()) {
+        case TALL:
+            return .10 + beverage.cost();
+        case GRANDE:
+            return .15 + beverage.cost();
+        case VENTI:
+            return .20 + beverage.cost();
+        default:
+            return 0;
+        }
     }
 }
